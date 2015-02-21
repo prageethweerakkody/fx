@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25383C" >
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingTop="0dip" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="4dip"
+                    android:layout_span="1"
+                    android:layout_weight="1"
+                    android:text="prageeth"
+                    android:textColor="#CCCCCC"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="4dip"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/rates"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp" />
+    </TableRow>
+
+</TableLayout>
